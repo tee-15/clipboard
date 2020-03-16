@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+   html,
+   body{
+     background-image: url(image/hero.jng);
+     font-weight: 400,600;
+     font-size: 18px;
+     text-rendering: optimizeLegibility;
+     font-family: Bai Jamjuree;
+     
+    
+    
+
+}
+a{
+    text-decoration: none;
+}
+.header-desktop{
+    width: 1582px;
+}
+.logo-svvg {
+    margin-left: 39em;
+    position: relative;
+    top: -13em;
+}
+.row-text {
+    text-align: center;
+    margin-left: -1em;
+    margin-top: -10em;
+}
+.history {
+    font-size: 31px;
+    color: hsl(210, 10%, 33%);
+}
+p.clipboard {
+    font-size: 14px;
+    opacity: .5;
+    margin-top: 1em;
+}
+
+.ios{
+    background-color:   hsl(171, 66%, 44%);
+    border: 1px solid  hsl(171, 66%, 44%);
+    font-size: 14px;
+    font-family: Bai Jamjuree;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    
+}
+.mac{
+    background-color:   hsl(233, 100%, 69%);
+    border: 1px solid  hsl(233, 100%, 69%);
+    font-size: 14px;
+    font-family: Bai Jamjuree;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    
+}
+.download {
+    margin-top: 2em;
+} 
+section.row-message {
+    text-align: center;
+    margin-top: 4em;
+} 
+h2.track {
+    font-size: 23px;
+    color: hsl(210, 10%, 33%);
+} 
+p.clou{
+    font-size: 14px;
+    opacity: .5;
+
+}
+section.row-images {
+    margin-top: 9em;
+    display: flex;
+    justify-content: space-around;
+}
+.search {
+    margin-top: 4em;
+}
+.message {
+    flex-direction: column;
+    margin-left: -17em;
+}
+h4.quick {
+    font-size: 16px;
+    color:  hsl(210, 10%, 33%);
+}
+p.content {
+    line-height: 2em;
+    font-size: 14px;
+    opacity: .5;
+    margin-top: 1em;
+}
+.anywhere {
+    margin-left: 1em;
+}
+section.row-access {
+    text-align: center;
+    display: inline-block;
+    margin-left: 20em;
+    margin-top: 6em;
+}
+.image-devices {
+    margin-top: 5em;
+}
+h2.board {
+    font-size: 30px;
+    color: hsl(210, 10%, 33%);
+}
+p.simple {
+    font-size: 14px;
+    opacity: .5;
+    margin-top: 1em;
+}
+
+section.row-super {
+    text-align: center;
+    margin-left: 3em;
+}
+.certain-pictures {
+    display: flex;
+    margin-top: 8em;
+    justify-content: center;
+}
+h5.blacklist {
+    font-size: 25px;
+    margin-top: 1em;
+    color: hsl(210, 10%, 33%);
+   
+
+}
+p.ensure-the {
+    font-size: 14px;
+    line-height: 4em;
+    margin: 1em;
+    opacity: .5;
+}
+p.ensure {
+    font-size: 14px;
+    line-height: 5em;
+    opacity: .5;
+}
+h2.supper {
+    color: hsl(210, 10%, 33%);
+    font-size: 29px;
+}
+
+
+.google {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+} 
+section.row-google {
+    margin-left: 8em;
+    margin-top: 8em;
+}
+section.row-information {
+    text-align: center;
+    margin-top: 8em;
+}
+h2.cloud {
+    font-size: 31px;
+    color: hsl(210, 10%, 33%);
+    
+}
+p.ready {
+    font-size: 14px;
+    opacity: .5;
+    margin-top: 2em;
+}
+p.tools {
+    font-size: 14px;
+    margin-top: 2em;
+    opacity: .5;
+}
+.btn-click{
+    background-color:   hsl(171, 66%, 44%);
+    border: 1px solid  hsl(171, 66%, 44%);
+    font-size: 14px;
+    font-family: Bai Jamjuree;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+}
+.btn-clik{
+   background-color:   hsl(233, 100%, 69%);
+    border: 1px solid  hsl(233, 100%, 69%);
+    font-size: 14px;
+    font-family: Bai Jamjuree;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+}  
+.btn {
+    margin-top: 2em;
+}  
+footer {
+    margin-top: 12em;
+    background-color: #fff;
+    opacity: .5;
+}  
+.foot {
+    display: flex;
+    justify-content: space-around;
+} 
+.list {
+    display: contents;
+}
+ul.contact {
+    list-style-type: none;
+    line-height: 3em;
+}
+ul.project {
+    line-height: 3em;
+    list-style-type: none;
+}
+ul.install {
+    line-height: 3em;
+    list-style-type: none;
+}
+.font-awesome {
+    margin: 1em;
+}
